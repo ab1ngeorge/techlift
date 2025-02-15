@@ -457,8 +457,6 @@ const problemStatements = [
 ];
 
 
-
-
 const ContactSection = ({ id }) => {
   return (
     <div id={id} className="bg-gray-900 py-12 w-screen">
@@ -559,9 +557,6 @@ const ContactSection = ({ id }) => {
     </div>
   )
 }
-
-
-export default ContactSection;
 
 
 const PrizesPage = ({ id }) => {
