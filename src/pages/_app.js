@@ -570,7 +570,7 @@ const ContactSection = ({ id }) => {
                 {/* Abin George */}
               <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
                 <img
-                  src="Ab1n.jpeg"
+                  src="Ab1n.jpg"
                   alt="Abin"
                   className="rounded-full h-8 w-8 mr-3"
                 />
