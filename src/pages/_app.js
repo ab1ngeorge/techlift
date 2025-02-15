@@ -457,6 +457,8 @@ const problemStatements = [
 ];
 
 
+
+
 const ContactSection = ({ id }) => {
   return (
     <div id={id} className="bg-gray-900 py-12 w-screen">
@@ -475,12 +477,12 @@ const ContactSection = ({ id }) => {
               <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
                 <img
                   src="sooraj.jpeg"
-                  alt="Abin N R"
+                  alt="Sooraj"
                   className="rounded-full h-8 w-8 mr-3"
                 />
                 <div className="coordinator-content">
                   <span className="whitespace-nowrap font-semibold text-black">
-                  Sooraj
+                    Sooraj
                   </span>
                   <a
                     href="https://wa.me/+918075386183"
@@ -497,7 +499,7 @@ const ContactSection = ({ id }) => {
               <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
                 <img
                   src="shamil.jpeg"
-                  alt="shamil shameer"
+                  alt="Shamil Shameer"
                   className="rounded-full h-8 w-8 mr-3"
                 />
                 <div className="coordinator-content">
@@ -517,7 +519,7 @@ const ContactSection = ({ id }) => {
               </div>
             </div>
           </div>
-          
+
           {/* Program Coordinators */}
           <div className="md:w-1/3 md:pl-4">
             <h3 className="text-lg font-bold mb-4 text-white text-center">
@@ -533,7 +535,7 @@ const ContactSection = ({ id }) => {
                 />
                 <div className="coordinator-content">
                   <span className="whitespace-nowrap font-semibold text-black">
-                  Abin N R
+                    Abin N R
                   </span>
                   <a
                     href="https://wa.me/+919526179205"
@@ -547,10 +549,10 @@ const ContactSection = ({ id }) => {
                 </div>
               </div>
               {/* Program Coordinator 2 */}
-              <div className="coordinator-card bg-white rounded-lg shadow-md p-4 flex items-center">
+              <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
                 <img
                   src="Nitish.jpeg"
-                  alt="Nitish"
+                  alt="Nitish Nayak"
                   className="rounded-full h-8 w-8 mr-3"
                 />
                 <div className="coordinator-content">
@@ -567,11 +569,12 @@ const ContactSection = ({ id }) => {
                     +91 85470 38838
                   </a>
                 </div>
-                {/* Abin George */}
-              <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
+              </div>
+              {/* Program Coordinator 3 - Abin George */}
+              <div className="coordinator-card bg-white rounded-lg shadow-md p-4 flex items-center">
                 <img
-                  src="Ab1n.jpg"
-                  alt="Abin"
+                  src="Ab1n.jpeg"
+                  alt="Abin George"
                   className="rounded-full h-8 w-8 mr-3"
                 />
                 <div className="coordinator-content">
@@ -589,10 +592,10 @@ const ContactSection = ({ id }) => {
                   </a>
                 </div>
               </div>
-              </div>
             </div>
           </div>
         </div>
+
         {/* Embed Google Maps */}
         <div className="mt-8">
           <iframe
@@ -606,8 +609,11 @@ const ContactSection = ({ id }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default ContactSection;
+
 
 const PrizesPage = ({ id }) => {
   return (
