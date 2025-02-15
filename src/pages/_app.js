@@ -523,10 +523,10 @@ const ContactSection = ({ id }) => {
             </div>
           </div>
 
-          {/* Design Coordinators */}
+          {/* Design editors*/}
           <div className="md:w-1/3 md:pl-4">
             <h3 className="text-lg font-bold mb-4 text-white text-center">
-              Design Coordinators
+              Student Editor
             </h3>
             <div className="flex flex-col justify-center text-gray-800">
               <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
