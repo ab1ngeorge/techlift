@@ -473,45 +473,21 @@ const ContactSection = ({ id }) => {
               Technical Coordinators
             </h3>
             <div className="flex flex-col justify-center text-gray-800">
-              {/* Technical Coordinator 1 */}
               <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
-                <img
-                  src="sooraj.jpeg"
-                  alt="Sooraj"
-                  className="rounded-full h-8 w-8 mr-3"
-                />
+                <img src="sooraj.jpeg" alt="Sooraj" className="rounded-full h-8 w-8 mr-3" />
                 <div className="coordinator-content">
-                  <span className="whitespace-nowrap font-semibold text-black">
-                    Sooraj
-                  </span>
-                  <a
-                    href="https://wa.me/+918075386183"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block whitespace-nowrap text-black font-semibold"
-                  >
+                  <span className="whitespace-nowrap font-semibold text-black">Sooraj</span>
+                  <a href="https://wa.me/+918075386183" target="_blank" rel="noopener noreferrer" className="block whitespace-nowrap text-black font-semibold">
                     <FontAwesomeIcon icon={faWhatsapp} className="mr-1" />
                     +91 80753 86183
                   </a>
                 </div>
               </div>
-              {/* Technical Coordinator 2 */}
               <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
-                <img
-                  src="shamil.jpeg"
-                  alt="Shamil Shameer"
-                  className="rounded-full h-8 w-8 mr-3"
-                />
+                <img src="shamil.jpeg" alt="Shamil" className="rounded-full h-8 w-8 mr-3" />
                 <div className="coordinator-content">
-                  <span className="whitespace-nowrap font-semibold text-black">
-                    Shamil
-                  </span>
-                  <a
-                    href="https://wa.me/+919074107075"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block whitespace-nowrap text-black font-semibold"
-                  >
+                  <span className="whitespace-nowrap font-semibold text-black">Shamil</span>
+                  <a href="https://wa.me/+919074107075" target="_blank" rel="noopener noreferrer" className="block whitespace-nowrap text-black font-semibold">
                     <FontAwesomeIcon icon={faWhatsapp} className="mr-1" />
                     +91 90741 07075
                   </a>
@@ -519,74 +495,47 @@ const ContactSection = ({ id }) => {
               </div>
             </div>
           </div>
-
+          
           {/* Program Coordinators */}
           <div className="md:w-1/3 md:pl-4">
             <h3 className="text-lg font-bold mb-4 text-white text-center">
               Program Coordinators
             </h3>
             <div className="flex flex-col justify-center text-gray-800">
-              {/* Program Coordinator 1 */}
               <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
-                <img
-                  src="abin.jpeg"
-                  alt="Abin N R"
-                  className="rounded-full h-8 w-8 mr-3"
-                />
+                <img src="abin.jpeg" alt="Abin N R" className="rounded-full h-8 w-8 mr-3" />
                 <div className="coordinator-content">
-                  <span className="whitespace-nowrap font-semibold text-black">
-                    Abin N R
-                  </span>
-                  <a
-                    href="https://wa.me/+919526179205"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block whitespace-nowrap text-black font-semibold"
-                  >
+                  <span className="whitespace-nowrap font-semibold text-black">Abin N R</span>
+                  <a href="https://wa.me/+919526179205" target="_blank" rel="noopener noreferrer" className="block whitespace-nowrap text-black font-semibold">
                     <FontAwesomeIcon icon={faWhatsapp} className="mr-1" />
                     +91 95261 79205
                   </a>
                 </div>
               </div>
-              {/* Program Coordinator 2 */}
-              <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
-                <img
-                  src="Nitish.jpeg"
-                  alt="Nitish Nayak"
-                  className="rounded-full h-8 w-8 mr-3"
-                />
+              <div className="coordinator-card bg-white rounded-lg shadow-md p-4 flex items-center">
+                <img src="Nitish.jpeg" alt="Nitish" className="rounded-full h-8 w-8 mr-3" />
                 <div className="coordinator-content">
-                  <span className="whitespace-nowrap font-semibold text-black">
-                    Nitish Nayak
-                  </span>
-                  <a
-                    href="https://wa.me/+918547038838"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block whitespace-nowrap text-black font-semibold"
-                  >
+                  <span className="whitespace-nowrap font-semibold text-black">Nitish Nayak</span>
+                  <a href="https://wa.me/+918547038838" target="_blank" rel="noopener noreferrer" className="block whitespace-nowrap text-black font-semibold">
                     <FontAwesomeIcon icon={faWhatsapp} className="mr-1" />
                     +91 85470 38838
                   </a>
                 </div>
               </div>
-              {/* Program Coordinator 3 - Abin George */}
-              <div className="coordinator-card bg-white rounded-lg shadow-md p-4 flex items-center">
-                <img
-                  src="Ab1n.jpeg"
-                  alt="Abin George"
-                  className="rounded-full h-8 w-8 mr-3"
-                />
+            </div>
+          </div>
+
+          {/* Design Coordinators */}
+          <div className="md:w-1/3 md:pl-4">
+            <h3 className="text-lg font-bold mb-4 text-white text-center">
+              Design Coordinators
+            </h3>
+            <div className="flex flex-col justify-center text-gray-800">
+              <div className="coordinator-card bg-white rounded-lg shadow-md p-4 mb-4 flex items-center">
+                <img src="Ab1n.jpg" alt="Abin George" className="rounded-full h-8 w-8 mr-3" />
                 <div className="coordinator-content">
-                  <span className="whitespace-nowrap font-semibold text-black">
-                    Abin George
-                  </span>
-                  <a
-                    href="https://wa.me/+918547216321"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block whitespace-nowrap text-black font-semibold"
-                  >
+                  <span className="whitespace-nowrap font-semibold text-black">Abin George</span>
+                  <a href="https://wa.me/+918547216321" target="_blank" rel="noopener noreferrer" className="block whitespace-nowrap text-black font-semibold">
                     <FontAwesomeIcon icon={faWhatsapp} className="mr-1" />
                     +91 85472 16321
                   </a>
@@ -595,7 +544,6 @@ const ContactSection = ({ id }) => {
             </div>
           </div>
         </div>
-
         {/* Embed Google Maps */}
         <div className="mt-8">
           <iframe
@@ -609,8 +557,9 @@ const ContactSection = ({ id }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
+
 
 export default ContactSection;
 
